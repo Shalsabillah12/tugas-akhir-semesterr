@@ -1,0 +1,83 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url(https://media.cnn.com/api/v1/images/stellar/prod/220216151045-forest-lagoon-geothermal-pools.jpg?q=h_2113,w_3698,x_0,y_0);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 50px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0);
+    background: #ffffff79;
+    box-shadow: 0 15px 25px rgba(132, 131, 136, 0.7);
+    border-radius: 9px;
+    margin-top: 40px;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+
+  .form {
+    text-decoration: none;
+    
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="date"],
+  input[type="time"],
+  input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  
+  button[type="submit"] {
+    background-color: #91d6e5;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: black;
+  }   
+
+  @media (max-width: 390px) {
+    html {
+        margin-top: 0px;
+        height: 100%;
+    }
+  }
+  
+  @media (max-width: 390px) {
+    .container {
+        margin-top: 75px;
+        height: 100%;
+    }
+  }
+
+  @media (max-width: 390px) {
+    .form-group {
+        padding-top: 20px;
+    }
+    .body {
+        top: 0px;
+    }
+  }
+
